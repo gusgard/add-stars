@@ -1,11 +1,24 @@
 # add-stars
 
+Add stars to all the repos in GitHub used in package.json.
+
+## Install
+
+```bash
+$ npm i -g add-stars
+```
+
 ## Setup
 
-### auth.json example
-```json
-{
-  "username": "YOURUSERNAME",
-  "password": "YOURPASSOWRD"
-}
+```bash
+$ add-stars
 ```
+
+#### Add authentication information for GitHub.
+
+####   
+
+
+### Features
+
+- Recursive mode. add stars for all the repos used to build this project.

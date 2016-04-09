@@ -1,26 +1,19 @@
 {
   "name": "add-stars",
   "version": "0.0.1",
-  "description": "",
+  "description": "Add start to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon lib/index.js --exec babel-node",
     "build": "babel lib -d dist"
   },
   "keywords": [
-    "star",
-    "repository",
-    "add",
-    "repo",
-    "stars"
+    "starring"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gusgard/starring.git"
   },
-  "keywords": [
-    "starring"
-  ],
   "author": "Gustavo Gard",
   "license": "MIT",
   "bugs": {
@@ -29,6 +22,8 @@
   "homepage": "https://github.com/gusgard/starring#readme",
   "dependencies": {
     "github-url-to-object": "^2.2.1",
+    "inquirer": "^1.0.0",
+    "jsonfile": "^2.2.3",
     "octonode": "^0.7.5",
     "superagent": "^1.8.2"
   },
@@ -37,6 +32,8 @@
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-stage-2": "^6.5.0",
     "colors": "^1.1.2",
+    "eslint": "^2.7.0",
+    "jscs": "^2.11.0",
     "nodemon": "^1.9.1"
   },
   "main": "lib/index.js"
