@@ -16,8 +16,7 @@ $ add-stars
 
 #### Add authentication information for GitHub.
 
-####   
-
+![auth](img/auth.png)
 
 ### Features
 
