@@ -1,6 +1,6 @@
 {
   "name": "add-stars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add start to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -36,5 +36,8 @@
     "jscs": "^2.11.0",
     "nodemon": "^1.9.1"
   },
-  "main": "lib/index.js"
+  "main": "dist/index.js",
+  "bin": {
+    "add-stars": "dist/index.js"
+  }
 }
