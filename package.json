@@ -1,6 +1,6 @@
 {
   "name": "add-stars",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Add star to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,11 +27,12 @@
   },
   "homepage": "https://github.com/gusgard/starring#readme",
   "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
     "github-url-to-object": "^2.2.1",
     "inquirer": "^1.0.0",
     "jsonfile": "^2.2.3",
     "octonode": "^0.7.5",
-    "colors": "^1.1.2",
     "superagent": "^1.8.2"
   },
   "devDependencies": {
