@@ -1,6 +1,6 @@
 {
   "name": "add-stars",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Add stars to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,14 +18,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gusgard/starring.git"
+    "url": "git+https://github.com/gusgard/add-stars.git"
   },
   "author": "Gustavo Gard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gusgard/starring/issues"
+    "url": "https://github.com/gusgard/add-stars/issues"
   },
-  "homepage": "https://github.com/gusgard/starring#readme",
+  "homepage": "https://github.com/gusgard/add-stars#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
