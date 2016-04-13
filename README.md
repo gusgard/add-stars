@@ -14,10 +14,24 @@ $ npm i -g add-stars
 $ add-stars
 ```
 
-#### Add authentication information for GitHub.
+#### Add authentication information for GitHub
 
 ![auth](img/auth.png)
 
-### Features
+#### Add stars to all the repos
 
-- Recursive mode. add stars for all the repos used to build this project.
+![add-stars](img/add-stars.png)
+
+#### Reset authentication
+```bash
+$ add-stars -r
+```
+
+#### Help
+```bash
+$ add-stars -h
+```
+
+<!-- ### Features
+
+- Recursive mode. add stars for all the repos used to build this project. -->

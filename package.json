@@ -1,7 +1,7 @@
 {
   "name": "add-stars",
   "version": "0.1.10",
-  "description": "Add star to repos used in your project.",
+  "description": "Add stars to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon lib/index.js --exec babel-node",
