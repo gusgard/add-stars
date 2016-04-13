@@ -1,6 +1,6 @@
 {
   "name": "add-stars",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Add star to repos used in your project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
