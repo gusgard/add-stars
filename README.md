@@ -24,7 +24,12 @@ $ add-stars
 
 #### Reset authentication
 ```bash
-$ add-stars -r
+$ add-stars -a
+```
+
+#### Star this repo 👍
+```bash
+$ add-stars -s
 ```
 
 #### Help
