@@ -35,7 +35,7 @@ $ add-stars -r
 $ add-stars -a
 ```
 
-#### Star this repo 👍
+#### Add star to this repo 👍
 ```bash
 $ add-stars -s
 ```
