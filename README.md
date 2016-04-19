@@ -2,6 +2,8 @@
 
 Add stars to all the repos in GitHub used in package.json.
 
+[![NPM](https://nodei.co/npm/add-stars.png?downloads=true)](https://nodei.co/npm/add-stars/)
+
 ## Install
 
 ```bash
@@ -22,6 +24,12 @@ $ add-stars
 
 ![add-stars](img/add-stars.png)
 
+#### Add stars recursive 🌟, stars all the repos in node_modules
+
+```bash
+$ add-stars -r
+```
+
 #### Reset authentication
 ```bash
 $ add-stars -a
@@ -36,7 +44,3 @@ $ add-stars -s
 ```bash
 $ add-stars -h
 ```
-
-<!-- ### Features
-
-- Recursive mode. add stars for all the repos used to build this project. -->
